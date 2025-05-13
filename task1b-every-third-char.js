@@ -1,0 +1,1 @@
+// Task 1b: Lue joka kolmas kirjain ja muokkaa

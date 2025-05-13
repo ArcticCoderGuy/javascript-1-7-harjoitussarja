@@ -1,0 +1,1 @@
+// Task 2a: Kysy käyttäjän ikä ja tarkista (18–22)

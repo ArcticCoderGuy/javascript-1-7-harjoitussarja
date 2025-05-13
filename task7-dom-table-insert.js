@@ -1,0 +1,1 @@
+// Task 7: Lisää uusi rivi taulukkoon DOM:ssa
