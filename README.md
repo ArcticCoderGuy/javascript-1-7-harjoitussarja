@@ -1,3 +1,0 @@
-# JavaScript 1-7 Harjoitussarja
-
-Tämä repository sisältää JavaScript-tehtävät 1-7.

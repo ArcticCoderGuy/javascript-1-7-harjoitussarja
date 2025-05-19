@@ -1,0 +1,36 @@
+# Tehtävä 1a "paja"-sanahaku merkkijonosta
+
+Tässä tehtävässä etsitään merkkijonosta sana "paja" ja siirretään se uuteen muuttujaan, jos se löytyy. Kirjoitan ensin pseudokoodin, koska haluan ymmärtää **MIKSI** asiat toimivat, ei pelkästään **MITEN**.
+
+Tämä ajattelutapa hidastaa alussa, mutta tekee työstä nopeampaa ja laadukkaampaa myöhemmin aivan kuten missä tahansa asiassa.
+
+
+
+ Pseudokoodi 
+
+1. Asetetaan alkuperäinen merkkijono, esimerkiksi     
+   "asuntokionapajaa"`.  
+   Koska arvo ei muutu, käytetään `const` → muuttuja nimeltä `mystinenSana`.
+
+2. Alustetaan uusi muuttuja nimeltä `uusiMuuttuja`, johon 
+   sijoitetaan tulos, **jos** ehto täyttyy. Tämä on hyvä esimerkki muuttujasta, joka voi muuttua, joten käytetään `let`.
+
+3. Tarkistetaan:
+   - Esiintyykö sana `"paja"` alkuperäisessä merkkijonossa `mystinenSana`?
+
+   - Jos löytyy:
+     - Siirretään `"paja"` muuttujaan `uusiMuuttuja`
+     - Tulostetaan molemmat merkkijonot konsoliin
+   - Jos ei löydy:
+     - Tulostetaan `"Sanaa ei löytynyt"` konsoliin
+     - Ohjelman suoritus päättyy
+
+---
+
+ Miksi miksi ?
+
+Merkkijonojen käsittely on yksi tärkeimmistä ohjelmoinnin perusteista. Pseudokoodin avulla hahmotan selkeästi mitä tavoitellaan, ilman että jään kiinni syntaksin yksityiskohtiin.  
+Kun ajattelu toimii, koodin kirjoitus on pelkkää ilmaisua.
+
+
+
