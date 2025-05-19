@@ -15,7 +15,7 @@ Tämä ajattelutapa hidastaa alussa, mutta tekee työstä nopeampaa ja laadukkaa
 2. Alustetaan uusi muuttuja nimeltä `uusiMuuttuja`, johon 
    sijoitetaan tulos, **jos** ehto täyttyy. Tämä on hyvä esimerkki muuttujasta, joka voi muuttua, joten käytetään `let`.
 
-3. Tarkistetaan:
+3. Tarkistetaan ja tehdään logiikkalause:
    - Esiintyykö sana `"paja"` alkuperäisessä merkkijonossa `mystinenSana`?
 
    - Jos löytyy:
@@ -32,5 +32,12 @@ Tämä ajattelutapa hidastaa alussa, mutta tekee työstä nopeampaa ja laadukkaa
 Merkkijonojen käsittely on yksi tärkeimmistä ohjelmoinnin perusteista. Pseudokoodin avulla hahmotan selkeästi mitä tavoitellaan, ilman että jään kiinni syntaksin yksityiskohtiin.  
 Kun ajattelu toimii, koodin kirjoitus on pelkkää ilmaisua.
 
+// if (originalString.includes("paja") !==-1) 
+Kun asiaa tutkin niin "paljastui" että tähän ei ole mtään muuttujaa sellaisenaan saatavana vaan on älyttävä rakentaa sopiva logiikkaehto. Logiikkaehtoon käytin kyllä AI:ta, koska en ole vielä niin hyvä, että voisin itse johtaa noita logiikkalauseita kun asia on kuitenkin uusi. Opittiin kuitenkin taas uutta ja saatiin koodia aikaiseksi sekä omaa osaamista kehitettyä.
+
+Koko roskan ajoin sitten Node.js:llä jonka , koska se oli niin helppoa ja nopeaa. Otin https://nodejs.org/en ja asensin sen ja kun kone herjasi että "niitä lupia ei sitten kyllä ollutkaan" niin ajoin sitten powershell:ssä "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser" ja sitten toimii.
+
+Ajettin Node.js:llä ja saatiin tulos aikaiseksi.
+```javascript  
 
 
