@@ -1,6 +1,6 @@
 # Tehtävä 1a "paja"-sanahaku merkkijonosta
 
-Tässä tehtävässä etsitään merkkijonosta sana "paja" ja siirretään se uuteen muuttujaan, jos se löytyy. Kirjoitan ensin pseudokoodin, koska haluan ymmärtää **MIKSI** asiat toimivat, ei pelkästään **MITEN**.
+Tehtävässä 1a etsitään merkkijonosta sana "paja" ja siirretään se uuteen muuttujaan, jos se löytyy. Kirjoitan ensin pseudokoodin, koska haluan ymmärtää **MIKSI** asiat toimivat, ei pelkästään **MITEN**.
 
 Tämä ajattelutapa hidastaa alussa, mutta tekee työstä nopeampaa ja laadukkaampaa myöhemmin aivan kuten missä tahansa asiassa.
 
@@ -41,3 +41,85 @@ Ajettin Node.js:llä ja saatiin tulos aikaiseksi.
 ```javascript  
 
 
+Tehtässä 1b etsitään/luetaan joka kolmas merkki mystinenSana joka tulee muutujaksi uusiMuuttuja. Jos merkki on "a" niin se muuttuu "*". Muuta merkkijono bold/uppercase-tyyliksi.
+
+Tulostan tehtävän tuloksen konsoliin ja testaan sekä committaan sen GitHubiin.
+
+Pseudokoodi:
+
+Tee alkuperäinen merkkijono
+Tee tyhjä merkkijono johon kerätään tulos
+
+Käy kaikki kirjaimet läpi
+  Jos tämä on joka kolmas kirjain
+    Jos kirjain on 'a'
+      Lisää tulokseen '*'
+    Muuten
+      Lisää tulokseen tämä kirjain
+
+Muuta tulos isoiksi kirjaimiksi
+Tulosta tulos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         20.5.2025     15.29           2826 README
+-a----         19.5.2025     23.47            400 task1a-substring-search.js
+-a----         20.5.2025     15.34            575 task1b-every-third-char.js
+-a----         19.5.2025     13.00             56 task2a-age-validation.js
+-a----         19.5.2025     13.00             47 task2b-age-loop.js
+-a----         19.5.2025     13.00             42 task2c-age-switch.js
+-a----         19.5.2025     13.00             46 task3-array-operations.js
+-a----         19.5.2025     13.00             51 task4-flower-class.js
+-a----         19.5.2025     13.00             43 task5-current-date.js
+-a----         19.5.2025     13.00             49 task6-dom-text-insert.js
+-a----         19.5.2025     13.00             47 task7-dom-table-insert.js
+
+
+PS C:\Users\HP\javascript-1-7-harjoitussarja> node task1b-every-third-char.js
+Origin string: asuntokionapajaa
+Every 3 letter transformed: UOOP*
+
+
+TEHTÄVÄ 2
+
+
+Tehtävä 2 – Syötteen kysyminen ja ehdollinen toisto
+
+Tehtävän tavoite:
+
+Pyytää käyttäjältä ikää niin kauan, kunnes se on välillä 18-22
+
+Kun ikä on välillä 18-22, tulosta jotain iän perusteella
+
+Pseudokoodi
+
+1. Kysy käyttäjältä ikä (käyttäen prompt-tyyppistä tapaa)
+
+2. Toista niin kauan kunnes ikä on välillä 18-22:
+    - Jos ikä on liian pieni tai iso → kysy uudelleen
+
+3. Kun oikea ikä saatu:
+
+    - Tarkista iän perusteella mitä tulostetaan:
+      - Jos 18 → nuori padawan
+      - Jos 22 → vanha viisas
+      - Jne...
+
+4. Tulosta ikä + sanallinen arvio
+
+Testaus: 
+
+PS C:\Users\HP\javascript-1-7-harjoitussarja> node task2a-age-validation.js
+
+Set age between 18 - 22: 18
+18 : Young Padawan 👶
+
+PS C:\Users\HP\javascript-1-7-harjoitussarja> node task2a-age-validation.js
+
+set age between 18 - 22: 45
+Invalid age, try again.
+Set age between 18 - 22: 22
+22 : Old 😊
+
+PS C:\Users\HP\javascript-1-7-harjoitussarja> 
