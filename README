@@ -198,3 +198,52 @@ Search result: CowS, Not founded
 
 PS C:\Users\HP\javascript-1-7-harjoitussarja> "
 
+
+Tehtävä 4.
+
+Define: Harjoituksen oppitavoitteet:
+
+Ymmärtää olioiden rakentaminen ja muokkaaminen
+
+Rakentaa metodirakenteita luokan sisälle
+
+Tunnistaa perus- ja rakennepohjaiset muuttujat käytännössä
+
+Harjoitella datan esittämistä toString()-funktion kautta
+
+
+CLASS Flower
+    METHOD constructor(type, color, amount, inStore)
+        SET this.type = type
+        SET this.color = color
+        SET this.amount = amount
+        SET this.inStore = inStore
+
+    METHOD changeColor(newColor)
+        SET this.color = newColor
+
+    METHOD changeAmount(newAmount)
+        SET this.amount = newAmount
+
+    METHOD toggleInStore()
+        SET this.inStore = NOT this.inStore
+
+    METHOD toString()
+        IF this.inStore IS true THEN
+            SET storeStatus = "Yes"
+        ELSE
+            SET storeStatus = "No"
+        ENDIF
+        RETURN "Flower { Type: '" + this.type + "', Color: '" + this.color + "', Amount: " + this.amount + ", inStore: " + storeStatus + " }"
+
+ENDCLASS
+
+// USAGE
+DECLARE myFlower = NEW Flower("Rose", "Red", 5, true)
+PRINT myFlower.toString()
+
+CALL myFlower.changeColor("Yellow")
+CALL myFlower.changeAmount(3)
+CALL myFlower.toggleInStore()
+
+PRINT myFlower.toString()
