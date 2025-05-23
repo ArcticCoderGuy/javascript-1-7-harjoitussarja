@@ -1,1 +1,0 @@
-// Task 2b: Toista ikäkysely kunnes oikea ikä

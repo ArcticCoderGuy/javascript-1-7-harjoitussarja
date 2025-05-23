@@ -81,10 +81,13 @@ Origin string: asuntokionapajaa
 Every 3 letter transformed: UOOP*
 
 
+----------------
+
+
 TEHTÄVÄ 2
 
 
-Tehtävä 2 – Syötteen kysyminen ja ehdollinen toisto
+Tehtävä 2  Syötteen kysyminen ja ehdollinen toisto
 
 Tehtävän tavoite:
 
@@ -108,6 +111,8 @@ Pseudokoodi
 
 4. Tulosta ikä + sanallinen arvio
 
+
+
 Testaus: 
 
 PS C:\Users\HP\javascript-1-7-harjoitussarja> node task2a-age-validation.js
@@ -123,3 +128,63 @@ Set age between 18 - 22: 22
 22 : Old 😊
 
 PS C:\Users\HP\javascript-1-7-harjoitussarja> 
+
+
+
+---------
+
+Tehtävä 3
+
+ Tehtävänmäärittely: Task 3 – Taulukon luonti, kopiointi, laajennus ja haku
+
+a) Luo taulukko eläimistä
+Luo taulukko, jossa on aluksi: "Dog", "Horse", "Cow"
+
+Tulosta taulukko kokonaisuutena
+
+Muunna taulukko merkkijonoksi käyttäen pilkkua
+
+b) Kopioi alkuperäinen taulukko
+Käytä map()-metodia kopiointiin
+
+Lisää uuteen taulukkoon kaksi uutta eläintä: "Cat", "Sheep"
+
+c) Etsi sana "Cow" uudesta taulukosta
+Etsi Cow uudesta taulukosta
+
+Jos löytyy → tulosta "Cow, Founded"
+
+d) Testaa myös sanalla jota ei ole
+Kokeile esim. "CowS"
+
+Jos ei löydy → tulosta "CowS, Not founded"
+
+
+PSEUDOKOODI
+
+1. Luo alkuperäinen taulukko:
+   eläimet = ["Dog", "Horse", "Cow"]
+   Tulosta eläimet
+   Tulosta eläimet merkkijonona pilkulla eroteltuna
+
+2. Kopioi alkuperäinen taulukko uuteen muuttujaan:
+   uusiTaulukko = eläimet.map jokainenEläin -> palauta jokainenEläin
+   Lisää "Cat" ja "Sheep" uuteen taulukkoon
+
+3. Hae "Cow" uudesta taulukosta:
+   Jos uusiTaulukko sisältää "Cow":
+       Tulosta "Cow, Founded"
+   Muuten:
+       Tulosta "Cow, Not founded"
+
+4. Testaa sana "CowS":
+   Jos uusiTaulukko sisältää "CowS":
+       Tulosta "CowS, Founded"
+   Muuten:
+       Tulosta "CowS, Not founded"
+
+
+
+  Testaus: 
+
+  

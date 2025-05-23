@@ -1,1 +1,0 @@
-// Task 2c: Näytä ikä tulos switchillä
