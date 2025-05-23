@@ -187,4 +187,14 @@ PSEUDOKOODI
 
   Testaus: 
 
-  
+Eli sain tämän vastukseksi:
+
+"PS C:\Users\HP\javascript-1-7-harjoitussarja> node task3-array-operations.js 
+Array: [ 'Dog', 'Horse', 'Cow' ]
+ArrayStr: Dog,Horse,Cow
+New array: [ 'Dog', 'Horse', 'Cow', 'Cat', 'Sheep' ]
+Search result: Cow, Founded
+Search result: CowS, Not founded
+
+PS C:\Users\HP\javascript-1-7-harjoitussarja> "
+
