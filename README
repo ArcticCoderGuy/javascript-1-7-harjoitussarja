@@ -255,3 +255,47 @@ PS C:\Users\HP\javascript-1-7-harjoitussarja> node task4-flower-class.js
 2) After changed: Flower { Type: 'Rose', Color: 'Yellow', Amount: 3, inStore: No }
 PS C:\Users\HP\javascript-1-7-harjoitussarja> 
 
+Tehtävä 5
+
+Tehtävän kuvaus:
+
+
+Kohta	          |           Miksi tärkeä
+
+new Date()	    |      Luo päivämääräobjektin
+
+getDay()	      |      Palauttaa viikonpäivän numerona (0–6)
+
+padStart(2, '0')|	    Lisää tarvittaessa etunollan esim.     
+                |       kuukaudelle 1 → 01
+
+getMonth() + 1	|    Kuukaudet ovat 0–11 (tammi = 0)
+
+Template literals	${...} tekee tekstistä helposti luettavaa
+
+
+
+PSEUDOKOODI: 
+
+1. CREATE a new Date object and store it in variable "today"
+
+2. DEFINE an array "days" with weekday names:
+   ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
+3. EXTRACT:
+   - year from today using getFullYear()
+   - month from today using getMonth(), add 1 to it (because it is zero-based)
+   - day from today using getDate()
+   - weekday number using getDay()
+
+4. CONVERT month and day to 2-digit strings if necessary (e.g. 1 → "01")
+
+5. GET weekday name using: dayName = days[weekdayNumber]
+
+6. FORMAT final string as:
+   "Date: " + dayName + " " + year + "-" + month + "-" + day
+
+7. PRINT the formatted string
+
+
+
