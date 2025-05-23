@@ -311,5 +311,57 @@ Date: Saturday 2025-05-24
 
 PS C:\Users\HP\javascript-1-7-harjoitussarja> 
 
+Omat "jorinat":
+
+Olen rakentanut itselleni oman mallin nimeltä "Peruskivet 1–5", jonka avulla jäsennän ohjelmoinnin taitoja ja tehtäviä eri tasoihin.
+Tässä mallissa jokainen kerros edustaa tietynlaista ajattelua ja rakenteen kompleksisuutta.
+
+Taso 1: perustason muuttujat, kuten-> let temperature = 23.2;
+
+Taso 2–3: ehtolauseet, silmukat ja rakenteet kuten listat ja objektit
+
+Taso 4: funktiot ja modulaarisuus – eli selkeä lohkoajattelu ja uudelleenkäytettävyys
+
+Taso 5: "tensorinen taso", jossa ohjelma alkaa tehdä päätöksiä tilanteen tai datan perusteella (esim. päätöksenteko eri viikonpäivien mukaan)
+
+Tavoitteenani on jossain vaiheessa päästä kokeilemaan myös kvanttilaskennan sovelluksia, joihin olen jo alkanut hankkia taustatietoa. Tämä kerrosmalli auttaa minua hahmottamaan, missä vaiheessa mikäkin ajattelumalli on tarpeen ja miten koodi kehittyy yksinkertaisista rakenteista älykkääksi kokonaisuudeksi.
+
+Ohessa kokeilin miltä näyttäisi tämä harjoitus 5.tason tensorisena tehtävänä ja onhan se pirun hieno: 
+
+const contexts = [
+  { day: "Saturday", mood: "happy", theme: "🌸 Weekend Chill Mode" },
+  { day: "Monday", mood: "tired", theme: "☕ Monday Grind" },
+  { day: "Friday", mood: "excited", theme: "🎉 Friday Vibes" },
+];
+
+function getSmartTheme(dayName) {
+  const match = contexts.find(c => c.day === dayName);
+  return match ? match.theme : "📅 Normal Day";
+}
+
+function getTensorFormattedDate() {
+  const today = new Date();
+  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const dayName = days[today.getDay()];
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, '0');
+  const day = String(today.getDate()).padStart(2, '0');
+
+  const theme = getSmartTheme(dayName);
+  return `${theme} ${dayName} ${year}-${month}-${day}`;
+}
+
+console.log(getTensorFormattedDate());
+
+
+console.log(getSmartFormattedDate());
+
+
+Mikä tekee tästä tensorisen ?
+
+
+Tämä koodi on “tensorinen”, koska se ei käytä kovakoodattuja if/else-sääntöjä vaan tekee päätöksen dynaamisesti rakenteesta, joka sisältää useita ulottuvuuksia – day, mood, theme – ja käyttää niiden yhdistelmää päätöksenteon pohjana. Päätös ei siis perustu kovaan logiikkaan vaan dataan, joka voidaan helposti laajentaa, vaihtaa tai jopa korvata koneoppimismallilla, mikä tekee siitä skaalautuvan ja älykkään – juuri kuten tensoriset rakenteet koneoppimisessa toimivat.
+
+
 
 
