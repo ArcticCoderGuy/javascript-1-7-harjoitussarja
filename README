@@ -303,5 +303,13 @@ PSEUDOKOODI:
 
 7. PRINT the formatted string
 
+TESTAUS;
+
+PS C:\Users\HP\javascript-1-7-harjoitussarja> node task5-current-date.js
+
+Date: Saturday 2025-05-24
+
+PS C:\Users\HP\javascript-1-7-harjoitussarja> 
+
 
 
