@@ -199,6 +199,9 @@ Search result: CowS, Not founded
 PS C:\Users\HP\javascript-1-7-harjoitussarja> "
 
 
+-----------------------
+
+
 Tehtävä 4.
 
 Define: Harjoituksen oppitavoitteet:
@@ -254,6 +257,9 @@ PS C:\Users\HP\javascript-1-7-harjoitussarja> node task4-flower-class.js
 1) After created: Flower { Type: 'Rose', Color: 'Red', Amount: 5, inStore: Yes }
 2) After changed: Flower { Type: 'Rose', Color: 'Yellow', Amount: 3, inStore: No }
 PS C:\Users\HP\javascript-1-7-harjoitussarja> 
+
+
+----------------------
 
 Tehtävä 5
 
