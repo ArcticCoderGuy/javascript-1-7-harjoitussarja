@@ -364,4 +364,19 @@ Tämä koodi on “tensorinen”, koska se ei käytä kovakoodattuja if/else-sä
 
 
 
+-------------------------------------
+
+Tetävä 6.
+
+Task 6
+Define: Harjoituksen oppitavoitteet:
+
+Ymmärtää, miten JavaScriptillä voi muokata HTML-rakennetta (DOM)
+
+Oppia käyttämään document.querySelector ja appendChild -komentoja
+
+Harjoitella tekstin luomista ja lisäämistä HTML-elementteihin ohjelmallisesti
+
+Hahmottaa, miten sivun rakenne ja JavaScript voivat yhdessä vaikuttaa näkyvään sisältöön
+
 
