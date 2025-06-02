@@ -377,6 +377,14 @@ Oppia käyttämään document.querySelector ja appendChild -komentoja
 
 Harjoitella tekstin luomista ja lisäämistä HTML-elementteihin ohjelmallisesti
 
-Hahmottaa, miten sivun rakenne ja JavaScript voivat yhdessä vaikuttaa näkyvään sisältöön
+Hahmottaa, miten sivun rakenne ja JavaScript voivat yhdessä vaikuttaa näkyvään sisältöön.
+
+Pseudokoodi
+
+1. Hae HTML-sivulta <main>-elementti luokan perusteella
+2. Luo uusi tekstisisältö (tekstisolmu) halutulla tekstillä
+3. Lisää tämä tekstisisältö <main>-elementin sisälle
+
+
 
 
