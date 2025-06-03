@@ -386,7 +386,9 @@ Pseudokoodi
 3. Lisää tämä tekstisisältö <main>-elementin sisälle
 
 
+Koodin ajo: PS C:\Users\HP\javascript-1-7-harjoitussarja> start index.html
 
+Testi: Toimii ja loin mediahakemiston juureen jossa kuva.
 
 
 
