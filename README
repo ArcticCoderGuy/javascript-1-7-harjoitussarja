@@ -391,4 +391,30 @@ Koodin ajo: PS C:\Users\HP\javascript-1-7-harjoitussarja> start index.html
 Testi: Toimii ja loin mediahakemiston juureen jossa kuva.
 
 
+--------------------------------------------------------------
 
+tehtävä 7.
+
+    Define: Harjoituksen oppimistavoitteet
+
+Ymmärtää, miten JavaScript-funktiolla voidaan lisätä rivejä HTML-taulukkoon
+
+Harjoitella DOM-elementtien käsittelyä kuten insertRow() ja insertCell()
+
+Tunnistaa onclick-tapahtumankäsittelijän rooli HTML-elementissä
+
+Oivaltaa HTML-elementin tunnisteen (id) käyttö ohjelmallisesti
+
+
+Pseudokoodi: 
+
+1. Hae taulukko id:n perusteella (sampleTable)
+2. Lisää uusi rivi taulukon alkuun insertRow(0)
+3. Lisää kaksi solua uuteen riviin insertCell(0) ja insertCell(1)
+4. Aseta solujen sisällöksi "New Cell1" ja "New Cell2"
+
+// HOX! luotu erillinen html-tiedosto Task7.html HOX!
+'
+
+
+Testattu ja paikkaan todettu toimivaksi sekä sitten siihen siunattu,halleluja.. 
